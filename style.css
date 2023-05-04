@@ -1,0 +1,53 @@
+body{
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(251, 197, 49);
+    font-style: italic;
+}
+.custom{
+    height: 631px;
+}
+/* menu  */
+.nav-item a{
+    padding: 2px 70px;
+    border-radius: 5px;
+}
+.nav-item a:hover{
+    background-color: rgba(0, 0, 0, 0.07);
+}
+/* service */
+hr{
+    width: 20%;
+    margin: auto;
+    display: block;
+}
+hr:not([size]) {
+    height: 3px;
+}
+.card{
+    border: 3px solid black;
+}
+/* 
+ portfolio 
+.txt{
+    opacity: 0;
+}
+.txt:hover{
+    opacity: 100;
+} */
+/* project */
+.effect:hover{
+    cursor: pointer;
+}
+/* about us  */
+.box{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.07);
+}
+.box a{
+    text-decoration: none;
+}
